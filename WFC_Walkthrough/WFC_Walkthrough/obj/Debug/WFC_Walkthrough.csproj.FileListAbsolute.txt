@@ -1,0 +1,14 @@
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.dll.config
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.dll
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.pdb
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.csprojResolveAssemblyReference.cache
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.csproj.CoreCompileInputs.cache
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.dll
+C:\Users\tgabb\Desktop\Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.pdb
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.dll.config
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.dll
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\bin\Debug\WFC_Walkthrough.pdb
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.csprojResolveAssemblyReference.cache
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.csproj.CoreCompileInputs.cache
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.dll
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WFC_Walkthrough\obj\Debug\WFC_Walkthrough.pdb

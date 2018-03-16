@@ -1,0 +1,10 @@
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\bin\Debug\WindowsApplication.exe.config
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\bin\Debug\WindowsApplication.exe
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\bin\Debug\WindowsApplication.pdb
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.csprojResolveAssemblyReference.cache
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.Form1.resources
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.Properties.Resources.resources
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.csproj.GenerateResource.Cache
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.csproj.CoreCompileInputs.cache
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.exe
+C:\Users\tgabb\Desktop\PersonalClones\C#_Webservice_Sandbox\WFC_Walkthrough\WindowsApplication\obj\Debug\WindowsApplication.pdb
