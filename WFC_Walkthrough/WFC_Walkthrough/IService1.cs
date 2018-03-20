@@ -21,6 +21,9 @@ namespace WFC_Walkthrough
         string Get(string request);
 
         // TODO: Add your service operations here
+
+        //[OperationContract]
+        //SomeOtherClass GetSome();
     }
 
     // Use a data contract as illustrated in the sample below to add composite types to service operations.
@@ -44,5 +47,57 @@ namespace WFC_Walkthrough
             get { return stringValue; }
             set { stringValue = value; }
         }
+    }
+
+    [DataContract]
+    public class SomeOtherClass
+    {
+        int intValue = 1;
+        string stringValue = "2";
+        bool boolValue = true;
+
+        //public SomeOtherClass(int i, string s, bool b)
+        //{
+        //    intValue = i;
+        //    stringValue = s;
+        //    boolValue = b;
+        //}
+
+        [DataMember]
+        public string Stuff
+        {
+            get
+            {
+                return String.Format("{0}, {1}, {2}", intValue, stringValue, boolValue);
+            }
+        }
+    }
+
+    [DataContract]
+    public static class StaticClass
+    {
+        static bool status = false;
+        static Guid guid = new Guid();
+        public static string Flip()
+        {
+            string ret;
+            if (status)
+            {
+                ret = "Off"; ;
+            }
+            else
+            {
+                ret = "ON";
+            }
+            status = !status;
+            return ret;
+        }
+
+        public static Guid GetId()
+        {
+            return guid;
+        }
+
+
     }
 }

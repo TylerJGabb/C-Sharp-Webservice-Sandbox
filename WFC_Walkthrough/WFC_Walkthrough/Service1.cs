@@ -34,5 +34,10 @@ namespace WFC_Walkthrough
             string[] args = request.Split('?')[1].Split('&');
             return args[0];
         }
+
+        //public SomeOtherClass GetSome()
+        //{
+        //    return new SomeOtherClass();
+        //}
     }
 }
