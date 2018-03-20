@@ -34,6 +34,8 @@ namespace WindowsApplication
             returnString = client.GetData(textBox1.Text);
             label1.Text += returnString;
 
+            var result = client.Get("https://tylerjgabb.github.io?1234&5678");
+
 
         }
     }

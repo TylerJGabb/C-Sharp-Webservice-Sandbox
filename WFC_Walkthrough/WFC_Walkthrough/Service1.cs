@@ -28,5 +28,11 @@ namespace WFC_Walkthrough
                 composite.StringValue += "Suffix";
             }
         }
+
+        public string Get(string request)
+        {
+            string[] args = request.Split('?')[1].Split('&');
+            return args[0];
+        }
     }
 }

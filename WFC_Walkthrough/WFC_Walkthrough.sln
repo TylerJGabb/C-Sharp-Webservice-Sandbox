@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsApplication", "Windo
 		{770564FC-9C3E-4948-9D60-DBC41982336C} = {770564FC-9C3E-4948-9D60-DBC41982336C}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSandbox", "ConsoleSandbox\ConsoleSandbox.csproj", "{ECBFA742-0D8E-426D-B36F-0FFF562977D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{770564FC-9C3E-4948-9D60-DBC41982336C} = {770564FC-9C3E-4948-9D60-DBC41982336C}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +29,10 @@ Global
 		{6661F438-8A0E-4B36-A01A-2520CBFD52A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6661F438-8A0E-4B36-A01A-2520CBFD52A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6661F438-8A0E-4B36-A01A-2520CBFD52A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECBFA742-0D8E-426D-B36F-0FFF562977D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBFA742-0D8E-426D-B36F-0FFF562977D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBFA742-0D8E-426D-B36F-0FFF562977D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBFA742-0D8E-426D-B36F-0FFF562977D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

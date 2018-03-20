@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsApplication.ServiceReference1 {
+namespace ConsoleSandbox.ServiceReference1 {
     using System.Runtime.Serialization;
     using System;
     
@@ -85,11 +85,11 @@ namespace WindowsApplication.ServiceReference1 {
         System.Threading.Tasks.Task<string> GetDataAsync(string value);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/MutateCompositeType", ReplyAction="http://tempuri.org/IService1/MutateCompositeTypeResponse")]
-        WindowsApplication.ServiceReference1.MutateCompositeTypeResponse MutateCompositeType(WindowsApplication.ServiceReference1.MutateCompositeTypeRequest request);
+        ConsoleSandbox.ServiceReference1.MutateCompositeTypeResponse MutateCompositeType(ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest request);
         
         // CODEGEN: Generating message contract since the operation has multiple return values.
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/MutateCompositeType", ReplyAction="http://tempuri.org/IService1/MutateCompositeTypeResponse")]
-        System.Threading.Tasks.Task<WindowsApplication.ServiceReference1.MutateCompositeTypeResponse> MutateCompositeTypeAsync(WindowsApplication.ServiceReference1.MutateCompositeTypeRequest request);
+        System.Threading.Tasks.Task<ConsoleSandbox.ServiceReference1.MutateCompositeTypeResponse> MutateCompositeTypeAsync(ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/Get", ReplyAction="http://tempuri.org/IService1/GetResponse")]
         string Get(string request);
@@ -104,12 +104,12 @@ namespace WindowsApplication.ServiceReference1 {
     public partial class MutateCompositeTypeRequest {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public WindowsApplication.ServiceReference1.CompositeType composite;
+        public ConsoleSandbox.ServiceReference1.CompositeType composite;
         
         public MutateCompositeTypeRequest() {
         }
         
-        public MutateCompositeTypeRequest(WindowsApplication.ServiceReference1.CompositeType composite) {
+        public MutateCompositeTypeRequest(ConsoleSandbox.ServiceReference1.CompositeType composite) {
             this.composite = composite;
         }
     }
@@ -120,23 +120,23 @@ namespace WindowsApplication.ServiceReference1 {
     public partial class MutateCompositeTypeResponse {
         
         [System.ServiceModel.MessageBodyMemberAttribute(Namespace="http://tempuri.org/", Order=0)]
-        public WindowsApplication.ServiceReference1.CompositeType composite;
+        public ConsoleSandbox.ServiceReference1.CompositeType composite;
         
         public MutateCompositeTypeResponse() {
         }
         
-        public MutateCompositeTypeResponse(WindowsApplication.ServiceReference1.CompositeType composite) {
+        public MutateCompositeTypeResponse(ConsoleSandbox.ServiceReference1.CompositeType composite) {
             this.composite = composite;
         }
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IService1Channel : WindowsApplication.ServiceReference1.IService1, System.ServiceModel.IClientChannel {
+    public interface IService1Channel : ConsoleSandbox.ServiceReference1.IService1, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class Service1Client : System.ServiceModel.ClientBase<WindowsApplication.ServiceReference1.IService1>, WindowsApplication.ServiceReference1.IService1 {
+    public partial class Service1Client : System.ServiceModel.ClientBase<ConsoleSandbox.ServiceReference1.IService1>, ConsoleSandbox.ServiceReference1.IService1 {
         
         public Service1Client() {
         }
@@ -166,18 +166,18 @@ namespace WindowsApplication.ServiceReference1 {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        WindowsApplication.ServiceReference1.MutateCompositeTypeResponse WindowsApplication.ServiceReference1.IService1.MutateCompositeType(WindowsApplication.ServiceReference1.MutateCompositeTypeRequest request) {
+        ConsoleSandbox.ServiceReference1.MutateCompositeTypeResponse ConsoleSandbox.ServiceReference1.IService1.MutateCompositeType(ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest request) {
             return base.Channel.MutateCompositeType(request);
         }
         
-        public void MutateCompositeType(ref WindowsApplication.ServiceReference1.CompositeType composite) {
-            WindowsApplication.ServiceReference1.MutateCompositeTypeRequest inValue = new WindowsApplication.ServiceReference1.MutateCompositeTypeRequest();
+        public void MutateCompositeType(ref ConsoleSandbox.ServiceReference1.CompositeType composite) {
+            ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest inValue = new ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest();
             inValue.composite = composite;
-            WindowsApplication.ServiceReference1.MutateCompositeTypeResponse retVal = ((WindowsApplication.ServiceReference1.IService1)(this)).MutateCompositeType(inValue);
+            ConsoleSandbox.ServiceReference1.MutateCompositeTypeResponse retVal = ((ConsoleSandbox.ServiceReference1.IService1)(this)).MutateCompositeType(inValue);
             composite = retVal.composite;
         }
         
-        public System.Threading.Tasks.Task<WindowsApplication.ServiceReference1.MutateCompositeTypeResponse> MutateCompositeTypeAsync(WindowsApplication.ServiceReference1.MutateCompositeTypeRequest request) {
+        public System.Threading.Tasks.Task<ConsoleSandbox.ServiceReference1.MutateCompositeTypeResponse> MutateCompositeTypeAsync(ConsoleSandbox.ServiceReference1.MutateCompositeTypeRequest request) {
             return base.Channel.MutateCompositeTypeAsync(request);
         }
         

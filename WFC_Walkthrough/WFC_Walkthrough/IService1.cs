@@ -17,6 +17,9 @@ namespace WFC_Walkthrough
         [OperationContract]
         void MutateCompositeType(ref CompositeType composite);
 
+        [OperationContract]
+        string Get(string request);
+
         // TODO: Add your service operations here
     }
 
